@@ -423,6 +423,10 @@
         margin: 50px 50px 10px 50px;
     }
 
+    .advert-description-1 {
+        justify-content: space-between;
+    }
+
     .avert-description-text {
         margin-right: 262px;
     }
