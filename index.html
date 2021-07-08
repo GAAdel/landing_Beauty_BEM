@@ -15,7 +15,7 @@
     <head>
         <div class="header-body">
             <nav class="header-body__menu">
-                <div class="body-elems header-body__menu_theme ">
+                <div class="body-elems header-body__menu_theme">
                     <ul class="uls header-menu__ul">
                         <li class="lis header-menu__li"><a class="links header-menu__links" href="">Доставка</a></li>
                         <li class="lis header-menu__li"><a class="links header-menu__links" href="">Оплата</a></li>
@@ -25,12 +25,18 @@
                     </ul>
                 </div>
             </nav>
-            <div class="body-elems header-body__info ">
+            <div class="body-elems header-body__info">
                 <div class="header-body__info_theme">
-                    <img class="info-theme__logo-icon" src="./img/logo.svg" alt="">
-                    <span class="info-theme__logo-name">BEAUTY</span>
-                    <span class="info-theme__logo-phone">8 (812) 123-45-67</span>
-                    <button class="btn info-theme__btn">Обратный звонок</button>
+                    <div class="info-theme-logo">
+                        <img class="info-theme__logo-icon" src="./img/logo.svg" alt="">
+                        <span class="info-theme__logo-name">BEAUTY</span>
+                    </div>
+                    <div>
+                        <span class="info-theme__logo-phone">8 (812) 123-45-67</span>
+                    </div>
+                    <div>
+                        <button class="btn info-theme__btn">Обратный звонок</button>
+                    </div>
                 </div>
             </div>
             <div class="line"></div>
@@ -51,9 +57,15 @@
     <section>
         <div class="banner-wrapper">
             <div class="banner-elements">
-                <h1 class="banner-elements__title">Супер кресло</h1>
-                <p class="banner-elements__text">Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</p>
-                <button class="btn banner-elements__btn">Подробнее</button>
+                <div>
+                    <h1 class="banner-elements__title">Супер кресло</h1>
+                </div>
+                <div>
+                    <p class="banner-elements__text">Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</p>
+                </div>
+                <div>
+                    <button class="btn banner-elements__btn">Подробнее</button>
+                </div>
             </div>
         </div>
     </section>
@@ -95,8 +107,12 @@
                         <p>Получайте бонусы и подарки</p>
                     </div>
                     <div class="avert-description advert-description-1">
-                        <p class="avert-description-text">Каждый месяц разыгрываем 10000 рублей для наших клиентов</p>
-                        <img src="./img/envelope.svg" alt="">
+                        <div>
+                            <p class="avert-description-text">Каждый месяц разыгрываем 10000 рублей для наших клиентов</p>
+                        </div>
+                        <div class="advert-description-1-envelope">
+                            <img src="./img/envelope.svg" alt="">
+                        </div>
                     </div>
                     <div class="avert-input">
                         <input class="advert-input-email" type="email" placeholder="Введите e-mail">
@@ -127,9 +143,15 @@
                         <li class="lis footer__li"><a class="social-media-item social-instagram" href=""></a></li>
                     </ul>
                 </div>
-                <span class="footer-adress">198555, Невский пр. 140, офис 140</span>
-                <span class="footer-phone">8 (812) 123-45-67</span>
-                <button class="btn info-theme__btn">Обратный звонок</button>
+                <div>
+                    <span class="footer-adress">198555, Невский пр. 140, офис 140</span>
+                </div>
+                <div>
+                    <span class="footer-phone">8 (812) 123-45-67</span>
+                </div>
+                <div>
+                    <button class="btn info-theme__btn">Обратный звонок</button>
+                </div>
             </div>
             <div class="footer-body__copyright">
                 <div class="body-elems footer-copyright-elements">
